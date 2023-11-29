@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hotel_Management_System.Person" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAACAAAAAwAQAAEIEAAACAAAAAAAAAgI=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_Management_System.Manager" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <InheritanceLine Type="Hotel_Management_System.Person" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="1.062" />
+        <Point X="2.75" Y="1.625" />
+        <Point X="3" Y="1.625" />
+        <Point X="3" Y="2" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAgAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_Management_System.Guest" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAACAAAAAgAAAAAASAEAAAAAAAAEAEAABAAAAQA=</HashCode>
+      <FileName>Guest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_Management_System.Receptionist" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAAAAAAAQQAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Receptionist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hotel_Management_System.Room">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAABAAAAARAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
